@@ -1,6 +1,6 @@
 all: mycp
 
-mp3: main.o 
+mycp: main.o 
 	gcc -g main.o -o mycp
 
 main.o: main.c
